@@ -26,10 +26,9 @@
 }
 
 .jumbotron {
-	background-image: url('../images/bridge.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 600px;
-	background: $darkblue;
+	@include backImage('../images/water.jpg', 600px, top center);
+}
+
+.bridge {
+	@include backImage('../images/bridge.jpg',600px, top center);
 }
